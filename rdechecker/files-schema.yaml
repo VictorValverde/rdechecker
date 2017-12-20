@@ -12,12 +12,22 @@ file_kinds:
             - start:    1
               end:      47
               lines:
-                1: [TEST ID, '[code]']
+                1: [TEST ID, '[code]', 'string:']
                 2: [Test date, '[dd.mm.yyyy]', 're:\d\d.\d\d.\d{4}']
                 3: [Organisation supervising the test, '[name of the organization]', 'string:']
-                4: [Test location, '[City (Country)]']
-
-                16: [Engine rated power, '[kW]', 'float:']
+                4: [Test location, '[City (Country)]', 'string:']
+                5: [Person supervising the test, '[name of the principal supervisor]', 'string:']
+                6: [Vehicle driver, '[name of the driver]', 'string:']
+                7: [Vehicle type, '[vehicle commercial name]', 'string:']
+                8: [Vehicle manufacturer, '[name]', 'string:']
+                9: [Vehicle model year, '[year]', 'int:']
+                10: [Vehicle ID, '[VIN code as defined in ISO 3779:2009]']
+                11: [Odometer value at test start, '[km]']
+                12: [Odometer value at test end, '[km]']
+                13: [Vehicle category, '[category as defined in Annex II to Directive 70/156/EEC]']
+                14: [Type approval emissions limit, '[Euro X]']
+                15: [Engine type, '[SI/CI]', 're:SI|CI']
+                16: [Engine rated power, '[kW]']
                 21:
                     - Fuel type. If flexifuel indicate fuel used in the test
                     - '[gasoline/diesel/LPG/NG/biomethane/ethanol/biodiesel]'
