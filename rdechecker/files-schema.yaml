@@ -12,14 +12,14 @@ file_kinds:
             - start:    1
               end:      47
               lines:
-                1: [TEST ID, '[code]', 'string:']
+                1: [TEST ID, '[code]', 'str:']
                 2: [Test date, '[dd.mm.yyyy]', 're:\d\d.\d\d.\d{4}']
-                3: [Organisation supervising the test, '[name of the organization]', 'string:']
-                4: [Test location, '[City (Country)]', 'string:']
-                5: [Person supervising the test, '[name of the principal supervisor]', 'string:']
-                6: [Vehicle driver, '[name of the driver]', 'string:']
-                7: [Vehicle type, '[vehicle commercial name]', 'string:']
-                8: [Vehicle manufacturer, '[name]', 'string:']
+                3: [Organisation supervising the test, '[name of the organization]', 'str:']
+                4: [Test location, '[City (Country)]', 'str:']
+                5: [Person supervising the test, '[name of the principal supervisor]', 'str:']
+                6: [Vehicle driver, '[name of the driver]', 'str:']
+                7: [Vehicle type, '[vehicle commercial name]', 'str:']
+                8: [Vehicle manufacturer, '[name]', 'str:']
                 9: [Vehicle model year, '[year]', 'int:']
                 10: [Vehicle ID, '[VIN code as defined in ISO 3779:2009]']
                 11: [Odometer value at test start, '[km]']
