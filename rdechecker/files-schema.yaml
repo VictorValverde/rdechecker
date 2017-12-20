@@ -14,7 +14,7 @@ file_kinds:
               lines:
                 1: [TEST ID, '[code]']
                 2: [Test date, '[dd.mm.yyyy]', 're:\d\d.\d\d.\d{4}']
-
+                3: [Organisation supervising the test, '[name of the organization]', 'string:']
                 4: [Test location, '[City (Country)]']
 
                 16: [Engine rated power, '[kW]', 'float:']
